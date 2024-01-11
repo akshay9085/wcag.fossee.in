@@ -5,7 +5,6 @@ import compress from 'astro-compress'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://wcag.on.fossee.in',
   compressHTML: true,
   integrations: [mdx(), tailwind({
     applyBaseStyles: false,
